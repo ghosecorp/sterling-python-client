@@ -3,9 +3,9 @@ requires = ["setuptools >= 77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sterling"
+name = "sterling-client"
 version = "0.0.1"
-description = "Sterling Cache Client - Python client for Sterling Cache"
+description = "Sterling Client - Python client for Sterling"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}

@@ -19,13 +19,13 @@ A simple, Python client for connecting to Sterling Server.
 ### Via PyPI
 
 ```
-pip install sterling
+pip install sterling-client
 ```
 
 ### Via TestPyPI
 
 ```
-pip install -i https://test.pypi.org/simple/ sterling
+pip install -i https://test.pypi.org/simple/ sterling-client
 ```
 
 ### From Source
@@ -41,7 +41,7 @@ pip install -e .
 ### Basic Usage
 
 ```
-from sterling import Sterling
+from sterling_client import Sterling
 
 # Connect to Sterling Cache Server
 client = Sterling(host='localhost', port=9162, decode_responses=True)
@@ -63,7 +63,7 @@ client.close()
 ### Context Manager (Recommended)
 
 ```
-from sterling import Sterling
+from sterling_client import Sterling
 
 with Sterling(host='localhost', port=9162) as client:
     client.set('user:1:name', 'John')

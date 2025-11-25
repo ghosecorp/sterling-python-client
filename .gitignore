@@ -1,5 +1,7 @@
 commands.txt
 sterling.egg*/
+sterling_client.egg*/
 __pycache__/
 .env*/
 dest/
+dist/
