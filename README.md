@@ -8,7 +8,7 @@ A simple, Python client for connecting to Sterling Server.
 
 ## Features
 
-- **Simple API**: Simple interface for familiar usage
+- **Simple API**: Simple interface for easy usage
 - **Lightweight**: Zero external dependencies
 - **Context Manager Support**: Clean connection handling
 - **Type Hints**: Full typing support for better IDE integration
